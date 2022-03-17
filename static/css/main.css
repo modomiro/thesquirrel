@@ -1,0 +1,85 @@
+/*
+ * The Squirrel
+ * My own theme
+ * https://github.com/modomiro/thesquirrel
+ * Designed by modomiro (http://modomiro.micro.blog)
+ * Updated in 2022-03-17
+ */
+
+/* Theme
+ -------------------------------------------------- */
+
+ @font-face {
+	font-family: "literata";
+	src: url("/fonts/literata-v23-latin-ext_latin-regular.woff2") format("woff2");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "literata";
+	src: url("/fonts/literata-v23-latin-ext_latin-italic.woff2") format("woff2");
+	font-weight: normal;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "literata";
+	src: url("/fonts/literata-v23-latin-ext_latin-700.woff2") format("woff2");
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "literata";
+	src: url("/fonts/literata-v23-latin-ext_latin-700italic.woff2") format("woff2");
+	font-weight: bold;
+	font-style: italic;
+	font-display: swap;
+}
+/* A CSS reset courtesy from https://www.joshwcomeau.com/css/custom-css-reset/ */
+/* 1. Use a more-intuitive box-sizing model. */
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  /* 2. Remove default margin */
+  * {
+    margin: 0;
+  }
+  /* 3. Allow percentage-based heights in the application */
+  html, body {
+    height: 100%;
+  }
+  /* Typographic tweaks!
+    4. Add accessible line-height
+    5. Improve text rendering */
+  body {
+    line-height: 1.3;
+    -webkit-font-smoothing: antialiased;
+  }
+  /* 6. Improve media defaults */
+  img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+  }
+  /* 7. Remove built-in form typography styles */
+  input, button, textarea, select {
+    font: inherit;
+  }
+  /* 8. Avoid text overflows */
+  p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+  }
+  /* 9. Create a root stacking context */
+  #root, #__next {
+    isolation: isolate;
+  }
+
+  /* Starting the styling with the body font */
+body{
+    font-family: literata,Palatino,palatino linotype,palatino lt std,book antiqua,Georgia,serif;
+    font-size: 1.2rem;
+}
