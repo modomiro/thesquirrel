@@ -78,8 +78,11 @@
     isolation: isolate;
   }
 
+  @import "https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css";
+
   /* Starting the styling with the body font */
 body{
     font-family: literata,Palatino,palatino linotype,palatino lt std,book antiqua,Georgia,serif;
     font-size: 1.2rem;
 }
+
